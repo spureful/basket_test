@@ -1,0 +1,40 @@
+.basket {
+
+
+	padding-top: 50px;
+	margin-bottom: 60px;
+}
+
+.container_basket {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-between;
+}
+
+.basket__title {
+
+
+	font-size: 45px;
+	font-weight: 800;
+	color: #061e31;
+
+	padding-left: 25px;
+}
+
+.basket__title_num {
+	font-size: 32px;
+	color: #5e6367;
+	font-weight: 400;
+}
+
+.basket__content {
+	width: 60%;
+
+	font-size: 20px;
+	line-height: 1.45;
+	color: #797979;
+}

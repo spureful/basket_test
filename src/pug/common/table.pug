@@ -1,0 +1,129 @@
+- var  tableHeads = ['В тендере', 'Агентство', 'Город', 'Ценовой сегмент', 'Проектов', 'Лет на рынке']
+
+
+	.container
+		table.table(rules="rows")
+			tr.table__row
+				
+					th.table__head(colspan='2') В тендере
+					th.table__head Агентство
+					th.table__head Город
+					th.table__head Ценовой сегмент
+					th.table__head Проектов
+					th.table__head Лет на рынке
+					
+			
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_1.png', 'image', 'table__img')
+				td.table__col.table__col-agency.table__col-agency_pro RuNetSoft
+				td.table__col Смоленск
+				td.table__col.table__rouble  ₽₽
+					span.table__rouble_grey ₽₽₽
+				td.table__col 163
+				td.table__col 8 лет
+				
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_2.png', 'image', 'table__img')
+				td.table__col.table__col-agency.table__col-agency_pro Клондайк
+				td.table__col Москва
+				td.table__col.table__rouble ₽₽₽
+					span.table__rouble_grey ₽₽
+				td.table__col 281
+				td.table__col 4 года
+				
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_3.png', 'image', 'table__img')
+				td.table__col.table__col-agency.table__col-agency_pro Cetera Labs
+				td.table__col Ижевск
+				td.table__col.table__rouble ₽₽₽₽
+					span.table__rouble_grey ₽
+				td.table__col 30
+				td.table__col 12 лет
+			
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_4.png', 'image', 'table__img')
+				td.table__col.table__col-agency Технологии успеха
+				td.table__col Минск
+				td.table__col.table__rouble ₽₽₽
+					span.table__rouble_grey ₽₽
+				td.table__col 229
+				td.table__col 3 года
+			
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_5.png', 'image', 'table__img')
+				td.table__col.table__col-agency ЮниВеб
+				td.table__col Киев
+				td.table__col.table__rouble ₽₽
+					span.table__rouble_grey ₽₽₽
+				td.table__col 43
+				td.table__col 5 лет
+			
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_6.png', 'image', 'table__img')
+				td.table__col.table__col-agency Seven Winds Studio
+				td.table__col Новороссийск
+				td.table__col.table__rouble ₽₽
+					span.table__rouble_grey ₽₽₽
+				td.table__col 17
+				td.table__col 3 года
+				
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+							+icon("checkmark", "table__checkmark")
+				td.table__col
+					+image('logo_4.png', 'image', 'table__img')
+				td.table__col.table__col-agency Технологии успеха
+				td.table__col Минск
+				td.table__col.table__rouble ₽₽₽
+					span.table__rouble_grey ₽₽
+				td.table__col 229
+				td.table__col 3 года
+			
+			tr.table__row
+				td.table__col
+					label.table__label
+						input.table__check(type="checkbox" checked)
+						.table__custum-check
+				td.table__col
+					+image('logo_5.png', 'image', 'table__img')
+				td.table__col.table__col-agency ЮниВеб
+				td.table__col Киев
+				td.table__col.table__rouble ₽₽₽₽
+					span.table__rouble_grey ₽
+				td.table__col 64
+				td.table__col 4 года
+			
+			
