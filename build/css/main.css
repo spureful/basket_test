@@ -601,7 +601,8 @@ p {
   font-weight: 700;
   color: #292929;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+  border: none; }
   .table__col-agency:before {
     content: '';
     width: 100%;
